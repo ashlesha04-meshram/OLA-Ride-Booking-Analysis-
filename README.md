@@ -16,3 +16,15 @@ SQL, Power BI, Excel, DAX.
 
 SQL Analysis Performed:
 Using SQL, I performed the following basic to advanced analyses on the OLA ride booking dataset:
+
+1. Retrieve all successful bookings:
+SELECT * FROM bookings WHERE Booking_Status = 'Success';
+2. Find the average ride distance for each vehicle type:
+SELECT Vehicle_Type, AVG(Ride_Distance) as avg_distance FROM bookings GROUP BY
+Vehicle_Type;
+3. Get the total number of cancelled rides by customers:
+SELECT COUNT(*) FROM bookings WHERE Booking_Status = 'cancelled by Customer';
+4. List the top 5 customers who booked the highest number of rides:
+SELECT Customer_ID, COUNT(Booking_ID) as total_rides FROM bookings GROUP BY
+Customer_ID ORDER BY total_rides DESC LIMIT 5;
+5. Get the number of rides cancelled by drivers due to personal and 
