@@ -1,2 +1,3 @@
 # OLA-Ride-Booking-Analysis-
-End to End 
+ End-to-end OLA ride booking analysis using SQL, Excel and Power BI.
+ 
