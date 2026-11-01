@@ -27,4 +27,6 @@ SELECT COUNT(*) FROM bookings WHERE Booking_Status = 'cancelled by Customer';
 4. List the top 5 customers who booked the highest number of rides:
 SELECT Customer_ID, COUNT(Booking_ID) as total_rides FROM bookings GROUP BY
 Customer_ID ORDER BY total_rides DESC LIMIT 5;
-5. Get the number of rides cancelled by drivers due to personal and 
+5. Get the number of rides cancelled by drivers due to personal and car-related issues:
+SELECT COUNT(*) FROM bookings WHERE cancelled_Rides_by_Driver = 'Personal & Car
+related issue';
