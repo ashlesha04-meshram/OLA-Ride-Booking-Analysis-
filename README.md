@@ -13,3 +13,6 @@ Analysed the results to identify business trends and insights.
 
 Tools Used: 
 SQL, Power BI, Excel, DAX.
+
+SQL Analysis Performed:
+Using SQL, I performed the following basic to advanced analyses on the OLA ride booking dataset:
