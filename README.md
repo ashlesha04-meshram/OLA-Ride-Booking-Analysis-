@@ -34,3 +34,20 @@ Customer_ID ORDER BY total_rides DESC LIMIT 5;
 5. Get the number of rides cancelled by drivers due to personal and car-related issues:
 SELECT COUNT(*) FROM bookings WHERE cancelled_Rides_by_Driver = 'Personal & Car
 related issue';
+
+Key Outcomes:
+Identified successful and cancelled booking patterns.
+Analysed revenue by payment method.
+Compared vehicle performance and ride distances.
+Evaluated customer and driver ratings.
+Identified top customers by booking value.
+
+
+Conclusion:
+This project helped me develop practical skills in SQL querying, data analysis, Power BI dashboard development, and business insight generation.Key Outcomes:
+
+
+
+
+
+
